@@ -156,6 +156,11 @@ body:not(.theme-preset-active) #masthead.opaque .navbar-nav > li.current_page_it
     overflow: hidden;
 }
 
+
+.sub .hero {
+    height: 30vh;
+}
+
 .hero img {
     position: absolute;
     left: 0;
@@ -284,6 +289,10 @@ section.light-blue {
 
 .tabs .sub-link a:after {
 	display: none;
+}
+
+.tabs .sub-link a:hover {
+	text-decoration: none;
 }
 
 .tabs a:hover:after,
@@ -580,18 +589,22 @@ section.testimonials {
 }
 
 .sidebar-heading {
-	font-size: 18px;
+    font-size: 18px;
     text-transform: uppercase;
-    color: #0a95cc;
+    color: #6d6d6d;
+    text-align: center;
 }
 
 .sl-sidebar a{
-    color: #524f63;
+	color: #524f63;
     position: relative;
-    margin-left: 30px;
     transition: .5s ease all;
     display: block;
     margin-bottom: 1em;
+    background: white;
+    padding: 10px 30px;
+    border-bottom: 3px solid #003362;
+    text-align: center;
 }
 
 .sl-sidebar a:hover {
@@ -602,24 +615,26 @@ section.testimonials {
 .sl-sidebar a:before{
     content: '';
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     background-image: url(../img/carousel-arrow.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    left: -30px;
-    filter: brightness(60%);
-    transition:.5s ease all;
+    left: 10px;
+    filter: brightness(70%);
+    transition: .5s ease all;
+    top: 50%;
+    margin-top: -5px;
 }
 
 .sl-sidebar a:hover:before{
-    filter: brightness(100%);
+    filter: brightness(-100%);
 }
 
 .parent-page,
 .resource {
     display: block;
-    margin-bottom: 1em;	
+/*    margin-bottom: 1em;	*/
 }
 
 /* ~~~~ CTA SECTION ~~~~~~ */
