@@ -282,6 +282,10 @@ section.light-blue {
     transition: opacity .5s ease;
 }
 
+.tabs .sub-link a:after {
+	display: none;
+}
+
 .tabs a:hover:after,
 .tabs a.active:after {
 opacity: 1;
