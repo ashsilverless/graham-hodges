@@ -342,6 +342,10 @@ opacity: 1;
     text-decoration: none;
 }
 
+.home .tabs li:first-of-type {
+	display: none;
+}
+
 .bottom-section {
 	padding: 2em 0 4em;
 }
