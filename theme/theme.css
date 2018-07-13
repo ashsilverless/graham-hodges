@@ -454,6 +454,7 @@ section.case-study {
     line-height: 30px !important;
     text-transform: uppercase;
     font-size: 12px !important;
+    padding: 0 30px !important;
 }
 
 .owl-next {
@@ -470,13 +471,13 @@ section.case-study {
     background-size: cover;
     background-repeat: no-repeat;
     transform: rotate(180deg);
-    left: -40px;
+    left: -5px;
 	}
 
 .owl-next:after {
     transform: none;
     left: initial;
-    right: -40px;
+    right: -5px;
 	}
 
 body .owl-theme .owl-nav [class*='owl-']:hover {
