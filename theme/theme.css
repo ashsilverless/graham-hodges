@@ -446,8 +446,8 @@ section.case-study {
     margin: 0 auto;
 }
 
-button.owl-prev,
-button.owl-next {
+body .owl-carousel .owl-nav button.owl-prev,
+body .owl-carousel .owl-nav button.owl-next {
     float: left;
     position: relative;
     color: white !important;
