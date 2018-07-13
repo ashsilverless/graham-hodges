@@ -45,7 +45,7 @@ get_header(); ?>
                     while (have_rows('page_links')) : the_row();
                         ?>
                         <div class="resource">
-                            <a href="<?php the_sub_field('button_target');?>"  target="_blank"><?php the_sub_field('name_of_resource');?></a>
+                            <a href="<?php the_sub_field('button_target');?>"  target="_blank"><?php the_sub_field('button_text');?></a>
                         </div>
                         <?php
                     endwhile;
