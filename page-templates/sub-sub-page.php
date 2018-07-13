@@ -45,7 +45,7 @@ get_header(); ?>
                     while (have_rows('resource')) : the_row();
                         ?>
                         <div class="resource">
-                            <a href="<?php the_sub_field('source');?>"><?php the_sub_field('name_of_resource');?></a>
+                            <a href="<?php the_sub_field('source');?>"  target="_blank"><?php the_sub_field('name_of_resource');?></a>
                         </div>
                         <?php
                     endwhile;

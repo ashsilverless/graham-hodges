@@ -14,7 +14,7 @@
                             <img src="<?php the_sub_field('image');?>"/>
                             <h3><?php the_sub_field('title');?></h3>
                             <p><?php the_sub_field('item_description');?></p>
-                            <a href="<?php the_sub_field('download_link');?>" class="light-button white">Download</a>
+                            <a href="<?php the_sub_field('download_link');?>" class="light-button white" target="_blank">Download</a>
                         </div>
                         <?php
                     endwhile;

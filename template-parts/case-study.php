@@ -21,7 +21,7 @@
                             <p class="title underline"><?php the_sub_field('title');?></p>
                             <?php the_sub_field('case_study_body');?>
                             <br/>
-                            <a href="<?php the_sub_field('case_study_download');?>" class="light-button">Download</a>
+                            <a href="<?php the_sub_field('case_study_download');?>" class="light-button" target="_blank">Download</a>
 	                        </div>
                         </div>
                         <?php
