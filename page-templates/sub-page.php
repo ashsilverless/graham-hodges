@@ -38,6 +38,21 @@ get_header(); ?>
 
 
 <div class="col-sm-3 sl-border-left sl-sidebar">
+	<p class="sidebar-heading">Related Content</p>
+	
+               <?php
+                if (have_rows('page_links')):
+                    while (have_rows('page_links')) : the_row();
+                        ?>
+                        <div class="resource">
+                            <a href="<?php the_sub_field('button_target');?>"  target="_blank"><?php the_sub_field('button_text');?></a>
+                        </div>
+                        <?php
+                    endwhile;
+                else :
+                endif;
+                ?>
+	
 	<p class="sidebar-heading">Also In This Section</p>
 	<?php get_template_part('template','parts/get-children');?>
 </div>
