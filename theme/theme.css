@@ -457,7 +457,7 @@ body .owl-carousel .owl-nav button.owl-next {
     padding: 0 30px !important;
 }
 
-.owl-next {
+body .owl-carousel .owl-nav button.owl-next {
 	float: right;
 }
 
