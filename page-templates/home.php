@@ -26,13 +26,11 @@ get_header(); ?>
 	            <p><?php the_field('hero_text'); ?></p>
 	        </section><!--full-bleed-->
 
-<?php get_template_part('template','parts/case-study');?>
-
 <?php get_template_part('template','parts/tab-section');?>
 
 <?php get_template_part('template','parts/testimonial');?>
 
-
+<?php get_template_part('template','parts/case-study');?>
 
 <section class="lower-section">
 	<div class="background-color-panel"></div>
