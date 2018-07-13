@@ -43,7 +43,7 @@ $('.sl-carousel').owlCarousel({
             items:2,
             nav:true
         },
-        1400:{
+        1000:{
             items:4,
             nav:true,
             loop:true
