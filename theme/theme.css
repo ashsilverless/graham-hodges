@@ -446,8 +446,8 @@ section.case-study {
     margin: 0 auto;
 }
 
-.owl-prev,
-.owl-next {
+button.owl-prev,
+button.owl-next {
     float: left;
     position: relative;
     color: white !important;
