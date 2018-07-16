@@ -29,7 +29,7 @@ get_header(); ?>
 <?php if ( has_post_thumbnail() ) {
 the_post_thumbnail();
 } else { ?>
-<img src="<?php bloginfo('template_directory'); ?>/img/news-holder.jpg" alt="<?php the_title(); ?>" />
+<img src="<?php bloginfo('template_directory'); ?>/img/news-holding.jpg" alt="<?php the_title(); ?>" />
 <?php } ?>
 		<p><?php the_title();?></p>
 	</div>		
