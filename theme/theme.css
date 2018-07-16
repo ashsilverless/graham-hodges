@@ -169,8 +169,8 @@ body:not(.theme-preset-active) #masthead.opaque .navbar-nav > li.current_page_it
     min-height: 100%;
 }
 
-.hero p,
-.hero h1 {
+#main .hero p,
+#main .hero h1 {
     position: relative;
     z-index: 100;
     align-items: center;
@@ -184,8 +184,8 @@ body:not(.theme-preset-active) #masthead.opaque .navbar-nav > li.current_page_it
     margin: 0 auto;
 }
 
-.hero p.yes,
-.hero h1.yes {
+#main .hero p.yes,
+#main .hero h1.yes {
     color: #6d6d74;
     text-shadow: 0 0 16px white;
 }
