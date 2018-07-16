@@ -314,7 +314,11 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
 add_filter('excerpt_more','__return_false');
 
-
+add_filter( 'yoast-acf-analysis/blacklist_type', function ( $blacklist_type ) {
+    // text, image etc
+    $blacklist_type->add( 'image' );
+    return $blacklist_type;
+});
 
 
 
