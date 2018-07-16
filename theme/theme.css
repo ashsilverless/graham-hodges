@@ -147,7 +147,8 @@ body:not(.theme-preset-active) #masthead.opaque .navbar-nav > li.current_page_it
 
 .header-vis {
     position: absolute;
-    width: 100%;
+	width: calc(100% - 30px);
+    margin-left: 15px;
     height: 80px;
     background: red;
     top: 0;
