@@ -23,7 +23,7 @@ get_header(); ?>
             
             <section class="hero full-bleed">
 	            <img src="<?php the_field('hero_image'); ?>" />
-	            <p class="<?php the_field('light_image'); ?>"><?php the_field('hero_text'); ?></p>
+	            <h1 class="<?php the_field('light_image'); ?>"><?php the_field('hero_text'); ?></h1>
 	        </section><!--full-bleed-->
 
 <section class="sub-content">
