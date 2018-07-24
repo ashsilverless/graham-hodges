@@ -320,7 +320,7 @@ add_filter( 'yoast-acf-analysis/blacklist_type', function ( $blacklist_type ) {
     return $blacklist_type;
 });
 
-
+add_post_type_support( 'page', 'excerpt' );
 
 
 
