@@ -321,6 +321,6 @@ add_filter( 'yoast-acf-analysis/blacklist_type', function ( $blacklist_type ) {
 });
 
 add_post_type_support( 'page', 'excerpt' );
-
+add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
 
 
