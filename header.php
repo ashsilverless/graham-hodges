@@ -56,8 +56,14 @@
                 'walker'          => new wp_bootstrap_navwalker()
                 ));
                 ?>
+                <i class="fa fa-search"></i>
 
             </nav>
+            
+            <div class="search-form">
+            <?php get_search_form(); ?>
+            </div>
+            
         </div>
 	</header><!-- #masthead -->
     <!--<?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>

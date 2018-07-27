@@ -158,11 +158,84 @@ body:not(.theme-preset-active) #masthead.opaque .navbar-nav > li.current_page_it
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 );
     opacity: .3;	
     transition: opacity .5s ease;
+    display: none;
 }
 
 .opaque .header-vis {
 	opacity: 0;
 	}
+	
+/* ============ SEARCH ============ */
+
+nav i {
+    color: white;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+
+.opaque nav i {
+    color: #2b2e2b;
+}
+
+.search-form {
+    float: right;
+    height: 30px;
+}
+
+.search-form input#searchsubmit{
+	opacity:0;
+    transition: .5s opacity ease;
+    float: right;
+    }
+
+.search-form.active input#searchsubmit{
+	opacity: 1;
+}
+
+.search-form input#s {
+    -webkit-appearance: none;
+    border: none;
+    line-height: 24px;
+    font-size: 18px;
+    height: 30px;
+    float: left;
+    outline: none;  
+    box-sizing: border-box;  
+	width: 0;
+	padding: 0;
+	transition: .5s ease width;
+	transition-delay: .5s;
+	}
+	
+.search-form.active input#s {
+	width: 200px;
+    padding: 5px 10px;	
+	}	
+	
+
+.opaque .search-form input {
+    background: #dadada;
+}
+
+.search-form input[type="submit"] {
+    -webkit-appearance: none;
+    border: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 22px;
+    margin: 0;
+    padding: 5px 10px;
+    background: #a1b9c1;
+    color: #4a4a4a;
+    height: 30px;
+    float: right;
+}
+
+body.search .comments-link,
+body.search .byline {
+	display: none;
+}
+
 	
 /* ============ PAGE ASSETS ============ */
 

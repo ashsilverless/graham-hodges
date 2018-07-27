@@ -51,7 +51,12 @@ $('.sl-carousel').owlCarousel({
     }
 })
 
-
+$(function() {
+  $(".fa-search").click(function() { 
+    $('.search-form').toggleClass("active");   
+    $('.search-form input#s').focus();      
+  });
+});
 
 
 
