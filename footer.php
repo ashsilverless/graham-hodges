@@ -63,7 +63,7 @@
 			</div>
 			
 			<div class="col-sm-6 copyright">
-			&copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().' /wp-content/uploads/2018/07/Graham-Hodges-Privacy-Policy.pdf">'.get_bloginfo('name').'</a>'; ?> | Privacy Policy | Designed by Silverless		
+			&copy; <?php echo date('Y'); ?> Graham Hodges | <?php echo '<a href="'.home_url().'/wp-content/uploads/2018/07/Graham-Hodges-Privacy-Policy.pdf" target="_blank">Privacy Policy</a>'; ?> | Designed by Silverless		
 			</div>		
 				
 			<div class="col-sm-3 social">
