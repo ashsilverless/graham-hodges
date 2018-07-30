@@ -29,7 +29,7 @@ body:not(.theme-preset-active) footer#colophon {
 
 body {
 	font-family: 'Lato', sans-serif;
-    color: #003364;	
+    color: #00315a;	
     font-size: 14px;
 }
 
@@ -44,12 +44,18 @@ a {
 
 b, strong {
     font-weight: bolder;
-    color: #0497cc;
+    color: #0095d4;
 }
 
 .page-wrapper {
     background: white;
     padding: 0 30px 30px;
+}
+
+body .btn-primary {
+    color: #fff;
+    background-color: #0095d4;
+    border-color: #0095d4;
 }
 
 /* ============ HEADER ============ */
@@ -142,7 +148,7 @@ body.singel #masthead .navbar-nav > li > a:hover {
 
 body:not(.theme-preset-active) #masthead.opaque .navbar-nav > li > a:hover, 
 body:not(.theme-preset-active) #masthead.opaque .navbar-nav > li.current_page_item > a {
-	color: #003364;
+	color: #00315a;
 }
 
 .header-vis {
@@ -302,7 +308,7 @@ body.search .byline {
 }
 
 section.dark-blue {
-    background-color: #003364;
+    background-color: #00315a;
     padding: 50px 0;
     border-top: 10px solid white;
     color: white;
@@ -341,7 +347,7 @@ section.light-blue {
     text-align: center;
     font-size: 1.5em;
     position: relative;
-    color: #0497cc;
+    color: #0095d4;
 }
 
 .tabs .heading {
@@ -419,7 +425,7 @@ opacity: 1;
 }
 
 .dashed-border {
-    border: 1px dotted #0497cc;
+    border: 1px dotted #0095d4;
     border-radius: 50%;
     display: inline-block;
     padding: 20px;
@@ -455,7 +461,7 @@ opacity: 1;
 p.title {
     text-align: center;
     font-size: 1.5em;
-    color: #0497cc;
+    color: #0095d4;
     width: 100%;    
 }
 
@@ -589,7 +595,7 @@ button:focus {
 /* ~~~~ TESTIMONIALS SECTION ~~~~~~ */
 
 section.testimonials {
-    background-color: #003364;
+    background-color: #00315a;
     padding: 50px 0;
     border-top: 10px solid white;
     color: white;
@@ -604,7 +610,7 @@ section.testimonials {
     width: 60%;
     margin: 0 20% 4em;
     border-radius: 0 0 10px 10px;
-    color: #003364;
+    color: #00315a;
 }
 
 .testimonials .owl-item {
@@ -636,7 +642,7 @@ section.testimonials {
 
 .testimonials .owl-item p:nth-of-type(3) {
     margin-top: 2em;
-    border-color: #0497cc;
+    border-color: #0095d4;
     border-width: 1px;
     border-bottom-style: solid;
     border-right-style: solid;
@@ -866,7 +872,7 @@ form .wpcf7-textarea {
 	text-align: left;
     font-size: 1.5em;
     position: relative;
-    color: #0497cc;	
+    color: #0095d4;	
 }
 
 #secondary {
@@ -883,7 +889,7 @@ form .wpcf7-textarea {
 /* ============ FOOTER ============ */
 
 #footer {
-    color: #003364;	
+    color: #00315a;	
 }
 
 .contact-upper {
@@ -892,9 +898,9 @@ form .wpcf7-textarea {
 
 .contact-lower i {
 font-size: 30px;
-    border: 2px solid #0497cc;
+    border: 2px solid #0095d4;
     border-radius: 50%;
-    color: #0497cc;
+    color: #0095d4;
     width: 50px;
     height: 50px;
     line-height: 47px;
@@ -914,7 +920,7 @@ footer#colophon {
 
 
 .socket {
-    background: #003364;
+    background: #00315a;
     margin-top: 2em;
     padding: 20px;	
     color: white;
@@ -937,7 +943,7 @@ footer#colophon {
 	line-height: 45px;
     font-size: 25px;
     background: white;
-    color: #003364;
+    color: #00315a;
     width: 45px;
     border-radius: 50%;
     text-align: center;

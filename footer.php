@@ -67,8 +67,8 @@
 			</div>		
 				
 			<div class="col-sm-3 social">
-				<i class="fab fa-twitter"></i>
-				<i class="fab fa-linkedin-in"></i>
+				<a href="https://twitter.com/grahamhodges1" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/grahamhodges" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 			</div>			
             
 			</div>            
