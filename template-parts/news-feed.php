@@ -6,7 +6,7 @@
 	
 <div class="sl-carousel owl-carousel owl-theme">
     <?php
-    $args = array( 'posts_per_page' => 10, 'category' => 3 );
+    $args = array( 'posts_per_page' => 15, 'category' => 3 );
 
     $myposts = get_posts( $args );
     foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
