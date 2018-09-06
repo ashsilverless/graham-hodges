@@ -1110,6 +1110,14 @@ form .wpcf7-textarea {
     text-align: justify;
 }
 
+.inner {
+    padding: 0;
+}
+
+.contact-upper {
+    padding: 1em 0;
+}
+
 }/*end 600*/
 
 
