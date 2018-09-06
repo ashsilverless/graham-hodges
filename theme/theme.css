@@ -972,8 +972,8 @@ header#masthead {
     top: 0;
     border-top: 0;
     border: none;
-    margin-left: 0;
-    width: calc(100% - 25px);
+    margin-left: -1px;
+    width: calc(100% - 24px);
     padding: 20px 0 0;
 }
 
@@ -1080,6 +1080,11 @@ form .wpcf7-textarea {
     padding: 10px;
 }
 
+.tabs .nav-item p {
+	font-size: 12px;
+	line-height: 1em;
+}
+
 .tabs .tab-content,
 .testimonials .inner,
 .case-study .inner,
@@ -1098,6 +1103,11 @@ form .wpcf7-textarea {
 .page-template-services .tabs li.nav-item {
     width: 25%;
     text-align: center;
+}
+
+.column-wrap {
+    column-count: 1;
+    text-align: justify;
 }
 
 }/*end 600*/
