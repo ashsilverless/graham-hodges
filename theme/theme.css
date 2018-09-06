@@ -977,6 +977,10 @@ header#masthead {
     padding: 20px 0 0;
 }
 
+header#masthead .navbar-brand {
+    filter: brightness(15%);
+}
+
 #main-nav {
     padding: 1em 0;
     text-align: right;
