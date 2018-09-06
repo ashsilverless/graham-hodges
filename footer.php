@@ -30,17 +30,17 @@
 <div class="container">
 	<div class="row">
 		
-		<div class="col-md-2">
-			<i class="fas fa-phone"></i><p>01225 719 857</p>
+		<div class="col-lg-2">
+			<i class="fas fa-phone"></i><p><a href="tel:01225 719 857">01225 719 857</a></p>
 			</div>
-		<div class="col-md-2">
-			<i class="fas fa-envelope"></i><p>graham@grahamhodges.com</p>
+		<div class="col-lg-2">
+			<i class="fas fa-envelope"></i><p><a href="mailto:graham@grahamhodges.com">graham@grahamhodges.com</a></p>
 			</div>		
-		<div class="col-md-2">
-			<i class="fas fa-mobile-alt"></i><p>07850 561 358</p>
+		<div class="col-lg-2">
+			<i class="fas fa-mobile-alt"></i><p><a href="tel:07850 561 358">07850 561 358</a></p>
 			</div>
 		
-		<div class="col-md-6">
+		<div class="col-lg-6">
 			<?php echo do_shortcode('[contact-form-7 id="192" title="Contact form 1"]');?>
 		</div>		
 				

@@ -24,15 +24,12 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
-            
-	<div class="post-thumbnail">
-<?php if ( has_post_thumbnail() ) {
-the_post_thumbnail();
-} else { ?>
-<img src="<?php bloginfo('template_directory'); ?>/img/news-holding.jpg" alt="<?php the_title(); ?>" />
-<?php } ?>
-		<p><?php the_title();?></p>
-	</div>		
+
+
+            <section class="hero full-bleed" style="background-image:url(<?php the_field('main_image'); ?>);">
+	            <h1 class="<?php the_field('light_image'); ?>"><?php the_title(); ?></h1>
+	        </section><!--full-bleed-->
+	
 
 <section class="sub-content">
 	

@@ -21,8 +21,7 @@ get_header(); ?>
 			endwhile; // End of the loop.
 			?>
             
-            <section class="hero full-bleed">
-	            <img src="<?php the_field('hero_image'); ?>" />
+            <section class="hero full-bleed" style="background-image:url(<?php the_field('hero_image'); ?>);">
 	            <p><?php the_field('hero_text'); ?></p>
 	        </section><!--full-bleed-->
 

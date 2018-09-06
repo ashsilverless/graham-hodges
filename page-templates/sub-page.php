@@ -20,9 +20,8 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
-            
-            <section class="hero full-bleed">
-	            <img src="<?php the_field('hero_image'); ?>" />
+
+            <section class="hero full-bleed" style="background-image:url(<?php the_field('hero_image'); ?>);">
 	            <h1 class="<?php the_field('light_image'); ?>"><?php the_field('hero_text'); ?></h1>
 	        </section><!--full-bleed-->
 

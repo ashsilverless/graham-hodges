@@ -251,6 +251,9 @@ body.search .byline {
     position: relative;
     margin-top: 30px;	
     overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
 }
 
 
@@ -844,12 +847,16 @@ form .wpcf7-textarea {
 /* ============ NEWS ITEM ============ */
 
 .post-thumbnail {
-	position: relative;
-	width: 100%;
+    position: relative;
+    width: 100%;
+    max-height: 50vh;
+    min-height: 50vh;
+    overflow: hidden;
 }
 
 .post-thumbnail img {
 	min-width: 100%;
+	margin-top:-25%;
 	}
 
 .post-thumbnail p {
@@ -950,6 +957,157 @@ footer#colophon {
     height: 45px;
     margin: 5px;
 }
+
+/* ============ MEDIA ============ */
+
+@media only screen and (max-width:1025px) {
+
+.page-wrapper {
+    background: white;
+    padding: 0 10px 10px;
+}
+
+header#masthead {
+    background: white;
+    top: 0;
+    border-top: 0;
+    border: none;
+    margin-left: 0;
+    width: calc(100% - 25px);
+    padding: 20px 0 0;
+}
+
+#main-nav {
+    padding: 1em 0;
+    text-align: right;
+}
+
+.navbar .fa-bars {
+	color:black;
+	font-size: 24px;
+	padding: 0;
+}
+
+body header#masthead .nav-item a.nav-link {
+    color: #00315a;
+    font-size: 16px;
+}
+
+body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
+    color: #868686;
+    }
+
+.search-form {
+	display: none;
+}
+
+#main .hero p, 
+#main .hero h1 {
+    width: 80%;
+    font-size: 1.5em;
+}
+	
+.navbar .fa-search {
+	display: none;
+}	
+
+.tabs .tab-content {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.testimonials .inner,
+.case-study .inner,
+.lower-section .wrapper {
+    width: 80%;
+    margin: 0 10% 4em;
+}
+	
+}/*end 900*/
+
+
+@media only screen and (max-width:600px) {
+
+#masthead nav {
+    margin-bottom: 10px;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    padding: 0 10px;
+}
+
+.social {
+	text-align: center;
+}
+
+.socket i {
+    line-height: 30px;
+    font-size: 15px;
+    background: white;
+    color: #00315a;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    height: 30px;
+    margin: 5px;
+}
+
+form .wpcf7-textarea {
+    margin-left: 0;
+    width: 100%;
+}
+
+.tabs li.nav-item {
+    display: inline-block;
+    width: 33%;
+}
+
+.tabs .nav-link {
+    display: inline-block;
+    padding: 0 10px;
+    }
+    
+.tabs a svg {
+    display: block;
+    width: 20px;
+}
+
+.tabs .dashed-border {
+    padding: 10px;
+}
+
+.tabs .tab-content,
+.testimonials .inner,
+.case-study .inner,
+.lower-section .wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+.testimonials .inner,
+.case-study .inner,
+.case-study .owl-item,
+.lower-section .wrapper {
+	border-radius: 0;
+}
+
+.page-template-services .tabs li.nav-item {
+    width: 25%;
+    text-align: center;
+}
+
+}/*end 600*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
