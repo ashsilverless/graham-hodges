@@ -981,8 +981,9 @@ header#masthead {
     border-top: 0;
     border: none;
     margin-left: -1px;
-    width: calc(100% - 24px);
+    width: calc(100%);
     padding: 20px 0 0;
+    box-sizing: border-box;
 }
 
 header#masthead .navbar-brand {
