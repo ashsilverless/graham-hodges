@@ -981,9 +981,8 @@ header#masthead {
     border-top: 0;
     border: none;
     margin-left: -1px;
-    width: calc(100%);
+    width: calc(100% - 24px);
     padding: 20px 0 0;
-    box-sizing: border-box;
 }
 
 header#masthead .navbar-brand {
@@ -1040,6 +1039,17 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
 
 
 @media only screen and (max-width:600px) {
+
+header#masthead {
+    background: white;
+    top: 0;
+    border-top: 0;
+    border: none;
+    margin-left: -1px;
+    width: calc(100%);
+    padding: 20px 0 0;
+    box-sizing: border-box;
+}
 
 #masthead nav {
     margin-bottom: 10px;
