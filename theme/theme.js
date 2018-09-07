@@ -48,12 +48,6 @@ $(function() {
   });
 });
 
-$(document).ready(function( $ ) {
-
-
-
-});
-
 });//Don't remove
 
 
