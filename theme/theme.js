@@ -10,20 +10,6 @@ $(window).scroll(function() {
     }
 });
 
-
-
-$(document).ready(function( $ ) {
-
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-    return false;
-});
-
-});
-
-
 $(document).ready(function( $ ) {
 
 $( "ul.nav li.nav-item" ).first().find('a').addClass( "active" );
@@ -62,7 +48,13 @@ $(function() {
   });
 });
 
+$('a[href*="#"]').on('click', function (e) {
+	e.preventDefault();
 
+	$('html, body').animate({
+		scrollTop: $($(this).attr('href')).offset().top
+	}, 500, 'linear');
+});
 
 });//Don't remove
 
