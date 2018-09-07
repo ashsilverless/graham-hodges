@@ -10,16 +10,6 @@ $(window).scroll(function() {
     }
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
 $(document).ready(function( $ ) {
 
 $( "ul.nav li.nav-item" ).first().find('a').addClass( "active" );
@@ -57,8 +47,6 @@ $(function() {
     $('.search-form input#s').focus();      
   });
 });
-
-
 
 });//Don't remove
 
