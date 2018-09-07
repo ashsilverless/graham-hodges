@@ -1103,6 +1103,12 @@ form .wpcf7-textarea {
 .tabs .nav-item p {
 	font-size: 12px;
 	line-height: 1em;
+	height: 2em;
+}
+
+.tabs a:after {
+    border-width: 0 5px 5px 5px;
+    margin-left: -3px;
 }
 
 .tabs .tab-content,
