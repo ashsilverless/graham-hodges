@@ -21,7 +21,10 @@ $('a.nav-link').click(function(){
     return false;
 });
 
+});
 
+
+$(document).ready(function( $ ) {
 
 $( "ul.nav li.nav-item" ).first().find('a').addClass( "active" );
 $( ".tab-pane" ).first().addClass( "active" );
