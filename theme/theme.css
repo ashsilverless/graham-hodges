@@ -987,6 +987,7 @@ header#masthead {
 
 header#masthead .navbar-brand {
     filter: brightness(15%);
+    -webkit-filter: brightness(15%);
 }
 
 #main-nav {
