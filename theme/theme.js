@@ -10,17 +10,18 @@ $(window).scroll(function() {
     }
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
 
 $(document).ready(function( $ ) {
+
+$('a.nav-link').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+
+
 
 $( "ul.nav li.nav-item" ).first().find('a').addClass( "active" );
 $( ".tab-pane" ).first().addClass( "active" );
